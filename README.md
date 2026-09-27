@@ -6,7 +6,7 @@ Machine learning is typically used to recognize patterns, make predictions, or a
 
 **Maybe Yes:** There are examples suggesting that neural networks can learn internal representations that go beyond simple surface-level pattern matching. In the Othello-GPT experiment [1](https://thegradient.pub/othello/), for example, a language model was trained only on sequences of moves, without being given the rules or board state of the game. The resulting model nevertheless developed internal representations that corresponded to the state of the Othello board.
 
-**Maybe no:** At the same time, good predictive performance does not necessarily mean that a model has discovered the underlying rules of a system. Recent work studying models trained on orbital trajectories found that models could perform their training tasks while failing to generalize according to Newtonian mechanics [2](https://arxiv.org/abs/2507.06952). This highlights an important distinction between learning to merely predict data versus discovering the rules that generates the data.
+**Maybe no:** At the same time, good predictive performance does not necessarily mean that a model has discovered the underlying rules of a system. Recent work studying models trained on orbital trajectories found that models could perform their training tasks while failing to generalize according to Newtonian mechanics [2](https://arxiv.org/abs/2507.06952). This highlights an important distinction between learning to merely predict data versus discovering the rules that generate the data.
 
 ## A Toy Experiment
 
